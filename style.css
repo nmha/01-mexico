@@ -1,0 +1,135 @@
+html {
+    box-sizing: border-box;
+  }
+  *,* :before, *:after {
+    box-sizing: inherit;
+  }
+
+  article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+
+body{
+      background: #f2f2f2;
+      padding: 100px;
+      background-image: url('http://www.cepegra-labs.be/webdesign/2017/fbol/css2/01mexico/img/mexico-logo.png');
+      background-repeat: no-repeat;
+      background-position: center top;
+      margin: 100px auto;
+    
+}
+
+img{
+    width: 1100px;
+    display: block;
+    border-top: 10px solid rgb(13, 128, 130);
+}
+
+
+
+
+main{
+      width: 1100px;
+      height: 100%;
+      background:white;
+      display: block;
+      padding: 20px 100px 50px 100px ;  
+      font-family: arial;
+      font-size: 16px;
+      line-height: 35px;
+      background-image: url('http://www.cepegra-labs.be/webdesign/2017/fbol/css2/01mexico/img/swim-with-the-fishes.jpg');
+     background-repeat: no-repeat;
+     background-position: top right;
+      color: dimgray;
+      border-right: 100px solid white;
+     
+
+      
+  }
+
+  span{
+      width: 1100px;
+      height: 100px;
+      color: rgb(43, 27, 27);
+      font-size: 40px;
+      font-weight: normal;
+      font-family: serif;
+      line-height: 100px;
+      background: white;     
+      text-align: center;
+      display: block;
+    
+      
+      
+  }
+
+  .hola {
+   
+      text-align: left;
+      text-align: justify;
+    
+  }
+
+  nav{
+      position: fixed; 
+      bottom:0;
+      left: 0;    
+      width:100%;
+
+      
+  }
+
+  
+  nav a {
+      width: 20%;
+      display: inline-block;
+      padding: 10px;
+      text-align: center;
+  }
+
+  .yellow {
+      background: yellow;
+      
+
+  }
+  .yellow:hover{
+    background: rgb(105, 105, 8);
+    border-top: 50px solid rgb(105, 105, 8);
+}
+
+  .red {
+    background: red;
+}
+.red:hover{
+    background: rgb(105, 8, 53);
+    border-top: 50px solid  rgb(105, 8, 53);
+}
+.blue {
+    background: blue;
+}
+.blue:hover{
+    background: rgb(61, 8, 105);
+    border-top: 50px solid  rgb(61, 8, 105);
+}
+
+.orange {
+    background: orange;
+}
+.orange:hover{
+    background: rgb(174, 14, 17);
+    border-top: 50px solid  rgb(174, 14, 17);
+}
+.green {
+    background: green;
+}
+.green:hover{
+    background: rgb(14, 174, 126);
+    border-top: 50px solid  rgb(14, 174, 126);
+    }
+
+ a {
+     text-decoration: none;
+     color: white;
+     font-family: serif;
+     font-size: 20px;
+
+ }
+ 
